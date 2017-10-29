@@ -7,7 +7,7 @@ public class HelloWorld {
 
     //Should return hello world as a string
     public String helloWorld(){
-        return null;
+        return "Hello World";
     }
 
 }

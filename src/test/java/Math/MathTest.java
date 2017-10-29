@@ -26,12 +26,27 @@ public class MathTest {
 
     @Test
     public void testGreaterThan(){
+        int one = 456;
+        int two = 23;
+        int three = 1;
+        int four = 3;
+
+        //System.out.println(this.math.greaterOrEqualTrue(one, two));
+        //System.out.println(this.math.greaterOrEqualFalse(three, four));
+
         assertTrue(this.math.greaterThanTrue(456,23));
         assertFalse(this.math.greaterThanFalse(1,3));
     }
 
     @Test
     public void testLessThan(){
+        int one = 1;
+        int two = 3;
+        int three = 4;
+
+        //System.out.println(this.math.lessOrEqualTrue(one, two));
+        //System.out.println(this.math.lessThanFalse(three, one));
+
         assertTrue(this.math.lessThanTrue(1 ,3));
         assertFalse(this.math.lessThanFalse(4,1));
     }

@@ -6,129 +6,155 @@ package PrimativeTypes;
 public class PrimativeTypes {
 
     //Add two ints and return the answer
-    public int add(int x, int y){
-        return 0;
+    public int addInt(int x, int y){
+        int sum = x + y;
+        return sum;
     }
 
     //Add two long's and return the answer
     public long add(long x, long y){
-        return 0;
+        long sum = x + y;
+        return sum;
     }
 
     //Add two short's and return the answer Must Type Cast
-    public short add(short x, short y){
-        return 0;
+    public short addShort(int x, int y){
+        int sum = (short) (x + y);
+        return (short) sum;
     }
+
     //Add two bytes and return the answer, Must Type Cast
-    public byte add(byte x, byte y){
-        return 0;
+    public byte addByte(int x, int y){
+        int sum = (byte) (x + y);
+        return (byte) sum;
     }
 
     //Add two floats and return the answer
-    public float add(float x, float y){
-        return 0;
+    public float add(double x, double y){
+        double sum = x +y;
+        return (float) sum;
     }
 
     //Add two doubles and return the answer
-    public double add(double x, double y){
-        return 0;
+    public double add1(double x, double y){
+        double sum = x + y;
+        return sum;
     }
 
-    //Subtract two ints and return the answer
-    public int subtract(int x, int y){
-        return 0;
-    }
+//    //Subtract two ints and return the answer
+//    public int subtract(int x, int y){
+//        int answer = x - y;
+//        return answer;
+//    }
 
     //Subtract two long's and return the answer
     public long subtract(long x, long y){
-        return 0;
+        long answer = x - y;
+        return answer;
     }
 
     //Subtract two short's and return the answer Must Type Cast
-    public short subtract(short x, short y){
-        return 0;
+    public short subtract(int x, int y){
+        int answer = (short) (x - y);
+        return (short) answer;
     }
+
     //Subtract two bytes and return the answer, Must Type Cast
     public byte subtract(byte x, byte y){
-        return 0;
+        int answer = (byte) (x - y);
+        return (byte) answer;
     }
 
     //Subtract two floats and return the answer
     public float subtract(float x, float y){
-        return 0;
+        int answer = (int) (x - y);
+        return (float) answer;
     }
 
     //Subtract two doubles and return the answer
     public double subtract(double x, double y){
-        return 0;
+        double answer = x - y;
+        return answer;
     }
 
     //Divide two ints and return the answer
     public int divide(int x, int y){
-        return 0;
+        int answer = x / y;
+        return answer;
     }
 
     //Divide two long's and return the answer
     public long divide(long x, long y){
-        return 0;
+        long answer = x / y;
+        return answer;
     }
 
     //Divide two short's and return the answer Must Type Cast
     public short divide(short x, short y){
-        return 0;
+        int answer = (short) x / y;
+        return (short) answer;
     }
     //Divide two bytes and return the answer, Must Type Cast
     public byte divide(byte x, byte y){
-        return 0;
+        int answer = (byte) x / y;
+        return (byte) answer;
     }
 
     //Divide two floats and return the answer
     public float divide(float x, float y){
-        return 0;
+        float answer = x / y;
+        return answer;
     }
 
     //Divide two doubles and return the answer
     public double divide(double x, double y){
-        return 0;
+        double answer = x / y;
+        return answer;
     }
 
     //Multiply two ints and return the answer
     public int multiply(int x, int y){
-        return 0;
+        int answer = x * y;
+        return answer;
     }
 
     //Multiply two long's and return the answer
     public long multiply(long x, long y){
-        return 0;
+        long answer = x * y;
+        return answer;
     }
 
     //Multiply two short's and return the answer Must Type Cast
     public short multiply(short x, short y){
-        return 0;
+        int answer = (short) x * y;
+        return (short) answer;
     }
     //Multiply two bytes and return the answer, Must Type Cast
     public byte multiply(byte x, byte y){
-        return 0;
+        int answer = (byte) x * y;
+        return (byte) answer;
     }
 
     //Multiply two floats and return the answer
     public float multiply(float x, float y){
-        return 0;
+        float answer = (int) x * y;
+        return (int) answer;
     }
 
     //Multiply two doubles and return the answer
     public double multiply(double x, double y){
-        return 0;
+        double answer = (int) x * y;
+        return (int) answer;
     }
 
     //Return true
     public boolean returnTrue(){
-        return false;
+        return true;
     }
 
     //Return false
     public boolean returnFalse(){
-        return true;
+        return false;
     }
 
 }

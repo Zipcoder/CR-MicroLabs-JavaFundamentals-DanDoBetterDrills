@@ -62,6 +62,4 @@ public class MathTest {
         assertTrue(this.math.logicalOr(14564));
         assertFalse(this.math.logicalOr(54));
     }
-
-
 }

@@ -7,128 +7,152 @@ public class PrimativeTypes {
 
     //Add two ints and return the answer
     public int add(int x, int y){
-        return 0;
+        int answer = x + y;
+        return answer;
     }
 
     //Add two long's and return the answer
     public long add(long x, long y){
-        return 0;
+        long answer = x + y;
+        return answer;
     }
 
     //Add two short's and return the answer Must Type Cast
     public short add(short x, short y){
-        return 0;
+        short sum = (short) (x + y);
+        return sum;
     }
     //Add two bytes and return the answer, Must Type Cast
     public byte add(byte x, byte y){
-        return 0;
+        byte sum = (byte) (x + y);
+        return sum;
     }
 
     //Add two floats and return the answer
     public float add(float x, float y){
-        return 0;
+        float answer = x + y;
+        return answer;
     }
 
     //Add two doubles and return the answer
     public double add(double x, double y){
-        return 0;
+        double answer = x + y;
+        return answer;
     }
 
     //Subtract two ints and return the answer
     public int subtract(int x, int y){
-        return 0;
+        int answer = x - y;
+        return answer;
     }
 
     //Subtract two long's and return the answer
     public long subtract(long x, long y){
-        return 0;
+        long answer = x - y;
+        return answer;
     }
 
     //Subtract two short's and return the answer Must Type Cast
     public short subtract(short x, short y){
-        return 0;
+        short answer = (short) (x - y);
+        return answer;
     }
     //Subtract two bytes and return the answer, Must Type Cast
     public byte subtract(byte x, byte y){
-        return 0;
+        byte answer = (byte) (x - y);
+        return answer;
     }
 
     //Subtract two floats and return the answer
     public float subtract(float x, float y){
-        return 0;
+        float answer = x - y;
+        return answer;
     }
 
     //Subtract two doubles and return the answer
     public double subtract(double x, double y){
-        return 0;
+        double answer = x -y;
+        return answer;
     }
 
     //Divide two ints and return the answer
     public int divide(int x, int y){
-        return 0;
+        int answer = x / y;
+        return answer;
     }
 
     //Divide two long's and return the answer
     public long divide(long x, long y){
-        return 0;
+        long answer = x / y;
+        return answer;
     }
 
     //Divide two short's and return the answer Must Type Cast
     public short divide(short x, short y){
-        return 0;
+        short answer = (short) (x / y);
+        return answer;
     }
     //Divide two bytes and return the answer, Must Type Cast
     public byte divide(byte x, byte y){
-        return 0;
+        byte answer = (byte) (x / y);
+        return answer;
     }
 
     //Divide two floats and return the answer
     public float divide(float x, float y){
-        return 0;
+        float answer = x / y;
+        return answer;
     }
 
     //Divide two doubles and return the answer
     public double divide(double x, double y){
-        return 0;
+        double answer = x / y;
+        return answer;
     }
 
     //Multiply two ints and return the answer
     public int multiply(int x, int y){
-        return 0;
+        int answer = x*y;
+        return answer;
     }
 
     //Multiply two long's and return the answer
     public long multiply(long x, long y){
-        return 0;
+        long answer = x*y;
+        return answer;
     }
 
     //Multiply two short's and return the answer Must Type Cast
     public short multiply(short x, short y){
-        return 0;
+        short answer = (short)(x*y);
+        return answer;
     }
     //Multiply two bytes and return the answer, Must Type Cast
     public byte multiply(byte x, byte y){
-        return 0;
+        byte answer = (byte)(x*y);
+        return answer;
     }
 
     //Multiply two floats and return the answer
     public float multiply(float x, float y){
-        return 0;
+        float answer = x*y;
+        return answer;
     }
 
     //Multiply two doubles and return the answer
     public double multiply(double x, double y){
-        return 0;
+        double answer = x*y;
+        return answer;
     }
 
     //Return true
     public boolean returnTrue(){
-        return false;
+        return true;
     }
 
     //Return false
     public boolean returnFalse(){
-        return true;
+        return false;
     }
 
 }

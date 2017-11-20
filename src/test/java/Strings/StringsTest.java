@@ -19,6 +19,7 @@ public class StringsTest {
     public void concatenationStringTest(){
         String one = "Hello", two = " Java";
         assertTrue(this.strings.concatenation(one,two).equals("Hello Java"));
+        System.out.println();
     }
 
     @Test

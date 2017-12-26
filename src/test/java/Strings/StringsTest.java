@@ -1,5 +1,6 @@
 package Strings;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -39,7 +40,9 @@ public class StringsTest {
     public void substringEndTest(){
         String string = "Hello";
         assertTrue(this.strings.subStringEnd(string).equals("llo"));
+
     }
+
 
     @Test
     public void compareToTest(){
@@ -47,6 +50,8 @@ public class StringsTest {
         assertTrue(this.strings.compareTwoStrings(one,two));
         assertFalse(this.strings.compareTwoStrings(one,three));
     }
+
+
 
     @Test
     public void equalToTest(){
@@ -56,26 +61,33 @@ public class StringsTest {
     }
 
     @Test
-    public void getTheMiddleChar(){
-        String one = "Zipcode";
-        assertTrue('c' == this.strings.getTheMiddleChar(one));
+    public void getTheMiddleCharTest(){
+
+        String expected = "c";
+        String actual = strings.getTheMiddleChar("Zipcode");
+        Assert.assertEquals(expected, actual);
     }
+
 
     @Test
     public void getTheFirstWord(){
         String string = "Zipcode Wilmington";
+        System.out.println(strings.getTheFirstWord(string));
         assertTrue(this.strings.getTheFirstWord(string).equals("Zipcode"));
     }
 
     @Test
     public void getTheSecondWord(){
-        String string = "Zipcode Wilmington";
+        String string = "Zipcode Wilmington ";
         assertTrue(this.strings.getTheSecondWord(string).equals("Wilmington"));
+        System.out.println(strings.getTheSecondWord(string));
+
     }
 
     @Test
     public void reverseThem(){
-        String string = "Zipcode Wilmington";
+        String string = "Zipcode Wilmington ";
+        System.out.println(strings.reverseTheTwo(string));
         assertTrue(this.strings.reverseTheTwo(string).equals("Wilmington Zipcode"));
     }
 

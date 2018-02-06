@@ -1,14 +1,14 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
+
 /**
  * Created by dan on 6/14/17.
  */
 public class StringUtilities {
-    /**
-     * @return `Hello World` as a string
-     */
+
     public static String getHelloWorld() {
-        return null;
+        String ayMane = "Hello World";
+        return ayMane;
     }
 
     /**
@@ -75,14 +75,11 @@ public class StringUtilities {
      * @return the second word of a string delimited by spaces.
      */
     public static String getSecondWord(String spaceDelimitedString){
-        return null;
+        String[] probablyWilmington = spaceDelimitedString.split("\\s+");
+        return probablyWilmington[1];
     }
 
-    /**
-     * @param stringToReverse
-     * @return an identical string with characters in reverse order.
-     */
     public static String reverseTheTwo(String stringToReverse){
-        return null;
+        return new StringBuilder(stringToReverse).reverse().toString();
     }
 }

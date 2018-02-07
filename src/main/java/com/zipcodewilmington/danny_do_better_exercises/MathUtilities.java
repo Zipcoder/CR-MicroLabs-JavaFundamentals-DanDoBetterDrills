@@ -94,7 +94,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Byte subtract(byte baseValue, byte difference) {
-            return baseValue - difference;
+            return (byte)(baseValue - difference);
     }
 
     /**
@@ -140,7 +140,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-            return dividend / divisor;
+            return (short)(dividend / divisor);
     }
 
     /**
@@ -149,7 +149,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-            return dividend / divisor;
+            return (byte)(dividend / divisor);
     }
 
     /**
@@ -195,7 +195,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return multiplicand * multiplier;
+        return (short)(multiplicand * multiplier);
     }
     /**
      * @param multiplicand value to be multiplied
@@ -203,7 +203,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return multiplicand * multiplier;
+        return (byte)(multiplicand * multiplier);
     }
 
     /**

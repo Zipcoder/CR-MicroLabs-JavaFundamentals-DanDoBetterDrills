@@ -217,6 +217,7 @@ public class MathUtilities {
     public Byte multiply(byte multiplicand, byte multiplier) {
         int first = multiplicand;
         int second = multiplier;
+        System.out.println(first * second);
         return (byte)(first * second);
     }
 

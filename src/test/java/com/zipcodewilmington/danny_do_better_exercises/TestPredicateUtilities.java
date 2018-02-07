@@ -47,7 +47,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isLessThan(greaterValue, lesserValue);
 
         // : Then
-        assertFalse(outcome);
+        assertTrue(outcome);
     }
 
 

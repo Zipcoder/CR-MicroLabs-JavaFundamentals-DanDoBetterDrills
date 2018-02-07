@@ -59,7 +59,7 @@ public class TestStringUtilities {
         String expected = "olleH";
 
         // : When
-        String actual = StringUtilities.getPrefix(input);
+        String actual = StringUtilities.reverseTheTwo(input);
 
         // : Then
         assertEquals(expected, actual);
@@ -154,7 +154,7 @@ public class TestStringUtilities {
         String expected = "Wilmington";
 
         // : When
-        String actual = StringUtilities.getFirstWord(input);
+        String actual = StringUtilities.getSecondWord(input);
 
         // : Then
         assertEquals(expected, actual);

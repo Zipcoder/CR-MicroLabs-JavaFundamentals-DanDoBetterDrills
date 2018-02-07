@@ -26,13 +26,14 @@ public class TestPredicateUtilities {
     @Test
     public void testGreaterThanFalse(){
         // : Given
-        int greaterValue = 350;
+        int greaterValue = 450;
         int lesserValue = 350;
 
         // : When
         boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
 
         // : Then
+
         assertTrue(outcome);
     }
 
@@ -59,7 +60,7 @@ public class TestPredicateUtilities {
         int lesserValue = 350;
 
         // : When
-        boolean outcome = math.isLessThan(greaterValue, lesserValue);
+        boolean outcome = math.isLessThan(lesserValue, greaterValue);
 
         // : Then
         assertTrue(outcome);
@@ -109,7 +110,7 @@ public class TestPredicateUtilities {
     @Test
     public void testGreaterOrEqual2(){
         // : Given
-        int greaterValue = 8;
+        int greaterValue = 18;
         int lesserValue = 15;
 
         // : When

@@ -5,236 +5,159 @@ package com.zipcodewilmington.danny_do_better_exercises;
  */
 public class MathUtilities {
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to add to starting value
-     * @return sum of `baseValue` and `difference`
-     */
+
     public Integer add(int baseValue, int difference) {
-        return null;
+        int add = baseValue + difference;
+        return add;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to add to starting value
-     * @return sum of `baseValue` and `difference`
-     */
     public Long add(long baseValue, long difference) {
-        return null;
+        long add = baseValue + difference;
+        return add;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to add to starting value
-     * @return sum of `baseValue` and `difference`
-     */
     public Short add(short baseValue, short difference) {
-        return null;
+        int sum = baseValue + difference;
+        short shortSum = (short) sum;
+        return shortSum;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to add to starting value
-     * @return sum of `baseValue` and `difference`
-     */
     public Byte add(byte baseValue, byte difference) {
-        return null;
+        int sum = baseValue + difference;
+        byte byteSum = (byte) sum;
+        return byteSum;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to add to starting value
-     * @return sum of `baseValue` and `difference`
-     */
     public Float add(float baseValue, float difference) {
-        return null;
+       float add = baseValue + difference;
+        return add;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to add to starting value
-     * @return sum of `baseValue` and `difference`
-     */
     public Double add(double baseValue, double difference) {
-        return null;
+        double add = baseValue + difference;
+        return add;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to subtract from starting value
-     * @return difference between `baseValue` and `difference`
-     */
     public Integer subtract(int baseValue, int difference) {
-        return null;
+        int subtract = baseValue - difference;
+        return subtract;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to subtract from starting value
-     * @return difference between `baseValue` and `difference`
-     */
     public Long subtract(long baseValue, long difference) {
-        return null;
+        long subtract = baseValue - difference;
+        return subtract;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to subtract from starting value
-     * @return difference between `baseValue` and `difference`
-     */
     public Short subtract(short baseValue, short difference) {
-        return null;
+        int sum = baseValue - difference;
+        short shortSum = (short) sum;
+        return shortSum;
+
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to subtract from starting value
-     * @return difference between `baseValue` and `difference`
-     */
     public Byte subtract(byte baseValue, byte difference) {
-        return null;
+        int sum = baseValue - difference;
+        byte byteSum = (byte) sum;
+        return byteSum;
+
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to subtract from starting value
-     * @return difference between `baseValue` and `difference`
-     */
     public Float subtract(float baseValue, float difference) {
-        return null;
+        float subtract = baseValue - difference;
+        return subtract;
     }
 
-    /**
-     * @param baseValue  starting value
-     * @param difference value to subtract from starting value
-     * @return difference between `baseValue` and `difference`
-     */
     public Double subtract(double baseValue, double difference) {
-        return null;
+        double subtract = baseValue - difference;
+        return subtract;
     }
 
-
-    /**
-     * @param dividend value to be divided
-     * @param divisor value to divide by
-     * @return division of `dividend` by `divisor
-     */
     public Integer divide(int dividend, int divisor) {
-        return null;
+        int divide = dividend / divisor;
+        return divide;
     }
 
-    /**
-     * @param dividend value to be divided
-     * @param divisor value to divide by
-     * @return division of `dividend` by `divisor
-     */
     public Long divide(long dividend, long divisor) {
-        return null;
+        long divide = dividend / divisor;
+        return divide;
+
     }
 
-    /**
-     * @param dividend value to be divided
-     * @param divisor value to divide by
-     * @return division of `dividend` by `divisor
-     */
     public Short divide(short dividend, short divisor) {
-        return null;
+        int sum = dividend / divisor;
+        short shortSum = (short) sum;
+        return shortSum;
+
     }
 
-    /**
-     * @param dividend value to be divided
-     * @param divisor value to divide by
-     * @return division of `dividend` by `divisor
-     */
     public Byte divide(byte dividend, byte divisor) {
-        return null;
+        int sum = dividend / divisor;
+        byte byteSum = (byte) sum;
+        return byteSum;
+
     }
 
-    /**
-     * @param dividend value to be divided
-     * @param divisor value to divide by
-     * @return division of `dividend` by `divisor
-     */
     public Float divide(float dividend, float divisor) {
-        return null;
+        float divide = dividend / divisor;
+        return divide;
+
     }
 
-    /**
-     * @param dividend value to be divided
-     * @param divisor value to divide by
-     * @return division of `dividend` by `divisor
-     */
     public Double divide(double dividend, double divisor) {
-        return null;
+        double divide = dividend / divisor;
+        return divide;
+
     }
 
-
-    /**
-     * @param multiplicand value to be multiplied
-     * @param multiplier value to multiply by
-     * @return product of `multiplicand` by `multiplier`
-     */
     public Integer multiply(int multiplicand, int multiplier) {
-        return null;
+        int multiply = multiplicand * multiplier;
+        return multiply;
     }
 
-    /**
-     * @param multiplicand value to be multiplied
-     * @param multiplier value to multiply by
-     * @return product of `multiplicand` by `multiplier`
-     */
     public Long multiply(long multiplicand, long multiplier) {
-        return null;
+        long multiply = multiplicand * multiplier;
+        return multiply;
     }
 
-    /**
-     * @param multiplicand value to be multiplied
-     * @param multiplier value to multiply by
-     * @return product of `multiplicand` by `multiplier`
-     */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+        int sum = multiplicand * multiplier;
+        short shortSum = (short) sum;
+        return shortSum;
     }
-    /**
-     * @param multiplicand value to be multiplied
-     * @param multiplier value to multiply by
-     * @return product of `multiplicand` by `multiplier`
-     */
+
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return null;
+        int sum = multiplicand * multiplier;
+        byte byteSum = (byte) sum;
+        return byteSum;
     }
 
-    /**
-     * @param multiplicand value to be multiplied
-     * @param multiplier value to multiply by
-     * @return product of `multiplicand` by `multiplier`
-     */
     public Float multiply(float multiplicand, float multiplier) {
-        return null;
+        float multiply = multiplicand * multiplier;
+        return multiply;
     }
 
-    /**
-     * @param multiplicand value to be multiplied
-     * @param multiplier value to multiply by
-     * @return product of `multiplicand` by `multiplier`
-     */
     public Double multiply(double multiplicand, double multiplier) {
-        return null;
+        double multiply = multiplicand * multiplier;
+        return multiply;
+
     }
 
-
-    /**
-      * @return true
-     */
     public Boolean returnTrue() {
-        return null;
+        if (20 < 100) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
-    /**
-     * @return false
-     */
     public Boolean returnFalse() {
-        return null;
+        if (69 >= 9000) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
 }

@@ -9,7 +9,7 @@ public class TestPredicateUtilities {
     private static volatile PredicateUtilities math = new PredicateUtilities();
 
     @Test
-    public void testGreaterThanTrue(){
+    public void testGreaterThanTrue() {
         // : Given
         int greaterValue = 450;
         int lesserValue = 350;
@@ -24,9 +24,9 @@ public class TestPredicateUtilities {
 
 
     @Test
-    public void testGreaterThanFalse(){
+    public void testGreaterThanFalse() {
         // : Given
-        int greaterValue = 350;
+        int greaterValue = 550;
         int lesserValue = 350;
 
         // : When
@@ -38,7 +38,7 @@ public class TestPredicateUtilities {
 
 
     @Test
-    public void testLessThanTrue(){
+    public void testLessThanTrue() {
         // : Given
         int greaterValue = 450;
         int lesserValue = 350;
@@ -53,21 +53,7 @@ public class TestPredicateUtilities {
 
 
     @Test
-    public void testLessThan1(){
-        // : Given
-        int greaterValue = 450;
-        int lesserValue = 350;
-
-        // : When
-        boolean outcome = math.isLessThan(greaterValue, lesserValue);
-
-        // : Then
-        assertTrue(outcome);
-    }
-
-
-    @Test
-    public void testLessOrEqual1(){
+    public void testLessOrEqual1() {
         // : Given
         int greaterValue = 3;
         int lesserValue = 3;
@@ -80,7 +66,7 @@ public class TestPredicateUtilities {
     }
 
     @Test
-    public void testLessOrEqual2(){
+    public void testLessOrEqual2() {
         // : Given
         int greaterValue = 3;
         int lesserValue = 6;
@@ -93,7 +79,7 @@ public class TestPredicateUtilities {
     }
 
     @Test
-    public void testGreaterOrEqual1(){
+    public void testGreaterOrEqual1() {
         // : Given
         int greaterValue = 4;
         int lesserValue = 4;
@@ -104,18 +90,6 @@ public class TestPredicateUtilities {
         // : ThenP
         assertTrue(outcome);
     }
-
-
-    @Test
-    public void testGreaterOrEqual2(){
-        // : Given
-        int greaterValue = 8;
-        int lesserValue = 15;
-
-        // : When
-        boolean outcome = math.isGreaterThanOrEqualTo(greaterValue, lesserValue);
-
-        // : Then
-        assertTrue(outcome);
-    }
 }
+
+

@@ -36,7 +36,7 @@ public class TestMathUtilities {
         // : Given
         short baseValue = 16384;
         short addedValue = 7;
-        short expected = 32767;
+        short expected = 16391;
         // : When
         short actual = primativeTypes.add(baseValue, addedValue);
         // : Then
@@ -142,7 +142,7 @@ public class TestMathUtilities {
         // : Given
         float baseValue = 750.585F;
         float difference = 795.0F;
-        float expectedFloat = -44.415F;
+        float expectedFloat = -44.414978F;
         // : When
         float actualFloat = primativeTypes.subtract(baseValue,difference);
         // : Then
@@ -296,7 +296,7 @@ public class TestMathUtilities {
         // : Given
         byte multiplicand = 16;
         byte multiplier = 14;
-        byte expectedByte = 64;
+        byte expectedByte = -32;
         // : When
         byte actualByte = primativeTypes.multiply(multiplicand, multiplier);
         // : Then

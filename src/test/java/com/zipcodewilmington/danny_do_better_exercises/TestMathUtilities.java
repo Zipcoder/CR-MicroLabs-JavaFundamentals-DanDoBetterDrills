@@ -294,9 +294,9 @@ public class TestMathUtilities {
     @Test
     public void testMultiplication3() {
         // : Given
-        byte multiplicand = 16;
+        byte multiplicand = 8;
         byte multiplier = 14;
-        byte expectedByte = 64;
+        byte expectedByte = 112;
         // : When
         byte actualByte = primativeTypes.multiply(multiplicand, multiplier);
         // : Then

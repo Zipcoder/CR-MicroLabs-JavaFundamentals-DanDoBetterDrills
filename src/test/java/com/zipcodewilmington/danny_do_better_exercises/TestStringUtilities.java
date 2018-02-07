@@ -56,7 +56,7 @@ public class TestStringUtilities {
     public void substringBeginTest(){
         // : Given
         String input = "Hello";
-        String expected = "olleH";
+        String expected = "Hel";
 
         // : When
         String actual = StringUtilities.getPrefix(input);

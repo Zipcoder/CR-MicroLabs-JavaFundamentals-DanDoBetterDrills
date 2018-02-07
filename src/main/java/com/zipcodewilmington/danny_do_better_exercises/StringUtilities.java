@@ -80,14 +80,9 @@ public class StringUtilities {
      */
     public static String getFirstWord(String spaceDelimitedString){
 
-        String answer = "";
+        String[] answer = spaceDelimitedString.split(" ");
 
-        for (int i = 0; i< spaceDelimitedString.length(); i++){
-            if (spaceDelimitedString.charAt(i) == ' ') {
-                answer = spaceDelimitedString.substring(0, i);
-            }
-        }
-        return answer;
+        return answer[0];
     }
 
     /**

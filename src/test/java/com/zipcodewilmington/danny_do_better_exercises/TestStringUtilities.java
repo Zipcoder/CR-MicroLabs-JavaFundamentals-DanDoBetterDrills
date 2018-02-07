@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
  * Created by dan on 6/14/17.
  */
 public class TestStringUtilities {
-    @Test
+    @org.junit.jupiter.api.Test
     public void getHelloWorldTest() {
         // : Given
         String expected = "Hello World";
@@ -56,7 +56,7 @@ public class TestStringUtilities {
     public void substringBeginTest(){
         // : Given
         String input = "Hello";
-        String expected = "olleH";
+        String expected = "Hel";
 
         // : When
         String actual = StringUtilities.getPrefix(input);
@@ -154,7 +154,7 @@ public class TestStringUtilities {
         String expected = "Wilmington";
 
         // : When
-        String actual = StringUtilities.getFirstWord(input);
+        String actual = StringUtilities.getSecondWord(input);
 
         // : Then
         assertEquals(expected, actual);

@@ -1,7 +1,5 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
-import static java.lang.System.*;
-
 /**
  * Created by dan on 6/14/17.
  */
@@ -78,8 +76,8 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString){
-
-        return null;
+        int spacer = spaceDelimitedString.indexOf(" ");
+        return spaceDelimitedString.substring(0, spacer);
     }
 
     /**
@@ -87,7 +85,8 @@ public class StringUtilities {
      * @return the second word of a string delimited by spaces.
      */
     public static String getSecondWord(String spaceDelimitedString){
-        return null;
+        int spacer = spaceDelimitedString.lastIndexOf(" ");
+        return spaceDelimitedString.substring(spacer);
     }
 
     /**
@@ -95,6 +94,6 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverseTheTwo(String stringToReverse){
-        return null;
+        return stringToReverse;
     }
 }

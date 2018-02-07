@@ -94,7 +94,11 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverseTheTwo(String stringToReverse) {
-        return new StringBuilder(stringToReverse).reverse().toString();
+        StringBuilder string1 = new StringBuilder(stringToReverse);
+
+        String string2 = string1.reverse().toString();
+
+        return String.valueOf(string2);
         }
 
     }

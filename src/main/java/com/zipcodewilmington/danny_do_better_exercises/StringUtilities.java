@@ -1,5 +1,7 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
+import java.util.Arrays;
+
 /**
  * Created by dan on 6/14/17.
  */
@@ -59,16 +61,9 @@ public class StringUtilities {
      * @return the middle character of `inputValue`
      */
     public static Character getMiddleCharacter(String inputValue){
-        String outputValue = inputValue;
-        int position;
-        if(inputValue.length() %2 == 0) {
-            position = inputValue.length() / 2 -1;
-            return outputValue();
-        }else {
-            position = inputValue.length()/ 2;
-        }
-        return
-
+        int lenWord = inputValue.length()-1;
+        int midChar = (int)(Math.floor(lenWord/2));
+        return inputValue.charAt(midChar);
     }
 
     /**
@@ -76,7 +71,9 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString){
-        return null;
+        String words = spaceDelimitedString;
+        String[] splitString = spaceDelimitedString.trim().split("\\s+");
+        return splitString[0];
     }
 
     /**
@@ -84,7 +81,11 @@ public class StringUtilities {
      * @return the second word of a string delimited by spaces.
      */
     public static String getSecondWord(String spaceDelimitedString){
-        return null;
+
+        String[] words = spaceDelimitedString.trim().split(" ");
+        String second = words[1];
+        return second;
+
     }
 
     /**
@@ -92,6 +93,6 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverseTheTwo(String stringToReverse){
-        return null;
+       return new StringBuilder(stringToReverse).reverse().toString();
     }
 }

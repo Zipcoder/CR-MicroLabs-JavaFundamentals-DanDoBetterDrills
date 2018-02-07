@@ -50,7 +50,7 @@ public class StringUtilities {
      */
     public static String getSuffix(String input){
 
-        return input.substring(input.length()-2);
+        return input.substring(input.length()-3);
     }
 
     /**
@@ -68,8 +68,9 @@ public class StringUtilities {
      * @return the middle character of `inputValue`
      */
     public static Character getMiddleCharacter(String inputValue){
+        int str = inputValue.length();
 
-        return null;
+        return inputValue.charAt(str / 2);
     }
 
     /**
@@ -77,6 +78,7 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString){
+
         return null;
     }
 

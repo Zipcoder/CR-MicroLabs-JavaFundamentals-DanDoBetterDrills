@@ -21,7 +21,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Long add(long baseValue, long difference) {
-        return baseValue + difference;
+        return (long)(baseValue + difference);
     }
 
     /**
@@ -182,7 +182,7 @@ public class MathUtilities {
      */
     public Double divide(double dividend, double divisor) {
 
-        return (double)(dividend - divisor);
+        return (double)(dividend / divisor);
     }
 
 

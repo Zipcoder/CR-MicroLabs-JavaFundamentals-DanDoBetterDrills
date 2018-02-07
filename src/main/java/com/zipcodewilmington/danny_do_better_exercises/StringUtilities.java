@@ -67,7 +67,12 @@ public class StringUtilities {
     public static Character getMiddleCharacter(String inputValue)
 
         {
-            
+            //Find length of the word
+            int lengthOfWord= inputValue.length()-1;
+            //Divide the length by 2, account for even;
+            int middleLengthOfWord= (int)(Math.floor(lengthOfWord/2));
+            return inputValue.charAt(middleLengthOfWord);
+
         }
 
     /**

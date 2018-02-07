@@ -93,11 +93,17 @@ public class StringUtilities {
      * @param stringToReverse
      * @return an identical string with characters in reverse order.
      */
-    public static String reverseTheTwo(String stringToReverse){
+
+    public static String reverseTheTwo(String stringToReverse) {
         String reverse = "";
-        for(int i = stringToReverse.length()-1; i >= 0; i--) {
+        for (int i = stringToReverse.length() - 1; i >= 0; i--) {
             reverse += stringToReverse.charAt(i);
         }
         return reverse;
+    }
+
+    public static String reverse(String stringToReverse){
+        return null;
+
     }
 }

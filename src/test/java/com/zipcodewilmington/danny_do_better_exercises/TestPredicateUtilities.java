@@ -19,7 +19,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertTrue(greaterValue > lesserValue);
     }
 
 
@@ -33,7 +33,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertTrue(greaterValue >= lesserValue);
     }
 
 
@@ -47,7 +47,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isLessThan(greaterValue, lesserValue);
 
         // : Then
-        assertFalse(outcome);
+        assertFalse(greaterValue < lesserValue);
     }
 
 
@@ -62,7 +62,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isLessThan(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertTrue(lesserValue < greaterValue);
     }
 
 
@@ -76,7 +76,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isLessThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertTrue(lesserValue <= greaterValue);
     }
 
     @Test
@@ -89,7 +89,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isLessThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertTrue(greaterValue <= lesserValue);
     }
 
     @Test
@@ -102,7 +102,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isGreaterThanOrEqualTo(greaterValue, lesserValue);
 
         // : ThenP
-        assertTrue(outcome);
+        assertTrue(greaterValue >= lesserValue);
     }
 
 
@@ -116,6 +116,6 @@ public class TestPredicateUtilities {
         boolean outcome = math.isGreaterThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertTrue(lesserValue >= greaterValue);
     }
 }

@@ -56,7 +56,7 @@ public class TestStringUtilities {
     public void substringBeginTest(){
         // : Given
         String input = "Hello";
-        String expected = "olleH";
+        String expected = "Hel";
 
         // : When
         String actual = StringUtilities.getPrefix(input);
@@ -109,13 +109,13 @@ public class TestStringUtilities {
     public void getTheMiddleChar1(){
         // : Given
         String input = "Zipcode";
-        char expected = 'c';
+        Character expected = 'c';
 
         // : When
-        char actual = StringUtilities.getMiddleCharacter(input);
+        Character actual = StringUtilities.getMiddleCharacter(input);
 
         // : Then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(expected.toString(), actual.toString());
     }
 
 
@@ -154,7 +154,7 @@ public class TestStringUtilities {
         String expected = "Wilmington";
 
         // : When
-        String actual = StringUtilities.getFirstWord(input);
+        String actual = StringUtilities.getSecondWord(input);
 
         // : Then
         assertEquals(expected, actual);
@@ -168,7 +168,7 @@ public class TestStringUtilities {
 
 
         // : When
-        String actual = StringUtilities.reverseTheTwo(input);
+        String actual = StringUtilities.reverse(input);
 
         // : Then
         assertEquals(expected, actual);

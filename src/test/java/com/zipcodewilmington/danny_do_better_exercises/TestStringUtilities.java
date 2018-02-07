@@ -56,7 +56,7 @@ public class TestStringUtilities {
     public void substringBeginTest(){
         // : Given
         String input = "Hello";
-        String expected = "olleH";
+        String expected = "Hel";
 
         // : When
         String actual = StringUtilities.getPrefix(input);
@@ -129,7 +129,7 @@ public class TestStringUtilities {
         Character actual = StringUtilities.getMiddleCharacter(input);
 
         // : Then
-        Assert.assertEquals(expected.toString(), actual.toString());
+        Assert.assertEquals(expected, actual);
     }
 
 

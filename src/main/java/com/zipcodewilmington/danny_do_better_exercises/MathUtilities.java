@@ -5,13 +5,15 @@ package com.zipcodewilmington.danny_do_better_exercises;
  */
 public class MathUtilities {
 
+    private short baseValue;
+
     /**
      * @param baseValue  starting value
      * @param difference value to add to starting value
      * @return sum of `baseValue` and `difference`
      */
     public Integer add(int baseValue, int difference) {
-        return null;
+        return baseValue + difference;
     }
 
     /**
@@ -20,7 +22,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Long add(long baseValue, long difference) {
-        return null;
+        return baseValue + difference;
     }
 
     /**
@@ -29,7 +31,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Short add(short baseValue, short difference) {
-        return null;
+        short sum = (short) (baseValue + difference);
+        return sum;
     }
 
     /**
@@ -38,7 +41,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Byte add(byte baseValue, byte difference) {
-        return null;
+        byte sum = (byte) (baseValue + difference);
+        return sum;
     }
 
     /**
@@ -47,7 +51,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Float add(float baseValue, float difference) {
-        return null;
+        float sum = (float) (baseValue + difference);
+        return sum;
     }
 
     /**
@@ -56,7 +61,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Double add(double baseValue, double difference) {
-        return null;
+        double sum = (double) (baseValue + difference);
+        return sum;
     }
 
     /**
@@ -65,7 +71,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Integer subtract(int baseValue, int difference) {
-        return null;
+        return baseValue - difference;
     }
 
     /**
@@ -74,7 +80,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Long subtract(long baseValue, long difference) {
-        return null;
+        return baseValue - difference;
     }
 
     /**
@@ -83,7 +89,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Short subtract(short baseValue, short difference) {
-        return null;
+        short sum = (short) (baseValue - difference);
+        return sum;
     }
 
     /**
@@ -92,7 +99,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Byte subtract(byte baseValue, byte difference) {
-        return null;
+        byte sum = (byte) (baseValue - difference);
+        return sum;
     }
 
     /**
@@ -101,7 +109,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Float subtract(float baseValue, float difference) {
-        return null;
+        float sum = (float) baseValue - difference;
+        return sum;
     }
 
     /**
@@ -110,7 +119,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Double subtract(double baseValue, double difference) {
-        return null;
+        double sum = (double) (baseValue - difference);
+        return sum;
     }
 
 
@@ -120,7 +130,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Integer divide(int dividend, int divisor) {
-        return null;
+        return dividend / divisor;
     }
 
     /**
@@ -129,7 +139,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Long divide(long dividend, long divisor) {
-        return null;
+        return dividend / divisor;
     }
 
     /**
@@ -138,7 +148,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        return null;
+        short sum = (short) (dividend / divisor);
+        return sum;
     }
 
     /**
@@ -147,7 +158,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-        return null;
+        byte sum = (byte) (dividend / divisor);
+        return sum;
     }
 
     /**
@@ -156,7 +168,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Float divide(float dividend, float divisor) {
-        return null;
+        float sum = (float) (dividend / divisor);
+        return sum;
     }
 
     /**
@@ -165,7 +178,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Double divide(double dividend, double divisor) {
-        return null;
+        double sum = (double) (dividend / divisor);
+        return sum;
     }
 
 
@@ -175,7 +189,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Integer multiply(int multiplicand, int multiplier) {
-        return null;
+        return multiplicand * multiplier;
     }
 
     /**
@@ -184,7 +198,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Long multiply(long multiplicand, long multiplier) {
-        return null;
+        return multiplicand * multiplier;
     }
 
     /**
@@ -193,7 +207,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+        short sum = (short) (multiplicand * multiplier);
+        return sum;
     }
     /**
      * @param multiplicand value to be multiplied
@@ -201,7 +216,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return null;
+        byte sum = (byte) (multiplicand * multiplier);
+        return sum;
     }
 
     /**
@@ -210,7 +226,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Float multiply(float multiplicand, float multiplier) {
-        return null;
+        float sum = (float) (multiplicand * multiplier);
+        return sum;
     }
 
     /**
@@ -219,7 +236,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Double multiply(double multiplicand, double multiplier) {
-        return null;
+        double sum = (double) (multiplicand * multiplier);
+        return sum;
     }
 
 
@@ -227,14 +245,14 @@ public class MathUtilities {
       * @return true
      */
     public Boolean returnTrue() {
-        return null;
+        return true;
     }
 
     /**
      * @return false
      */
     public Boolean returnFalse() {
-        return null;
+        return false;
     }
 
 }

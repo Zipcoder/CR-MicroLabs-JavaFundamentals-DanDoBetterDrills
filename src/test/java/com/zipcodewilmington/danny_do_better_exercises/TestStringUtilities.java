@@ -22,14 +22,14 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void concatenationStringTest(){
+    public void concatenationStringTest() {
         // : Given
         String one = "Hello";
         String two = " Java";
         String expected = "Hello Java";
 
         // : When
-        String actual = StringUtilities.concatenation(one,two);
+        String actual = StringUtilities.concatenation(one, two);
 
 
         // : Then
@@ -38,14 +38,14 @@ public class TestStringUtilities {
 
 
     @Test
-    public void concatenationStringAndIntegerTest(){
+    public void concatenationStringAndIntegerTest() {
         // : Given
         int one = 1;
         String two = " Java";
         String expected = "1 Java";
 
         // : When
-        String actual = StringUtilities.concatenation(one,two);
+        String actual = StringUtilities.concatenation(one, two);
 
 
         // : Then
@@ -53,10 +53,10 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void substringBeginTest(){
+    public void substringBeginTest() {
         // : Given
         String input = "Hello";
-        String expected = "olleH";
+        String expected = "Hel";
 
         // : When
         String actual = StringUtilities.getPrefix(input);
@@ -66,7 +66,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void substringEndTest(){
+    public void substringEndTest() {
         // : Given
         String input = "Hello";
         String expected = "llo";
@@ -79,7 +79,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void compareToTestEquals(){
+    public void compareToTestEquals() {
         // : Given
         String inputValue = "Zipcode";
         String comparableValue = "Zipcode";
@@ -93,7 +93,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void compareToTestNotEquals(){
+    public void compareToTestNotEquals() {
         // : Given
         String inputValue = "Zipcode";
         String comparableValue = "Zipcodee";
@@ -106,7 +106,7 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void getTheMiddleChar1(){
+    public void getTheMiddleChar1() {
         // : Given
         String input = "Zipcode";
         char expected = 'c';
@@ -120,7 +120,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void getTheMiddleChar2(){
+    public void getTheMiddleChar2() {
         // : Given
         String input = "Zipcoder";
         Character expected = 'c';
@@ -134,7 +134,7 @@ public class TestStringUtilities {
 
 
     @Test
-    public void getTheFirstWord(){
+    public void getTheFirstWord() {
         // : Given
         String input = "Zipcode Wilmington";
         String expected = "Zipcode";
@@ -148,18 +148,17 @@ public class TestStringUtilities {
 
 
     @Test
-    public void getTheSecondWord(){
+    public void getTheSecondWord() {
         // : Given
         String input = "Zipcode Wilmington";
         String expected = "Wilmington";
 
         // : When
-        String actual = StringUtilities.getFirstWord(input);
+        String actual = StringUtilities.getSecondWord(input);
 
         // : Then
         assertEquals(expected, actual);
     }
-
     @Test
     public void reverseThem(){
         // : Given
@@ -174,3 +173,6 @@ public class TestStringUtilities {
         assertEquals(expected, actual);
     }
 }
+
+
+

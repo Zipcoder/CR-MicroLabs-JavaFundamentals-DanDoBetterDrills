@@ -22,7 +22,8 @@ public class MathUtilities {
     }
 
     public Float add(float baseValue, float difference) {
-        return baseValue + difference;
+        float floatyAdd = (baseValue + difference);
+        return Math.round(floatyAdd * 1000f)/1000f;
     }
 
     public Double add(double baseValue, double difference) {
@@ -46,7 +47,8 @@ public class MathUtilities {
     }
 
     public Float subtract(float baseValue, float difference) {
-        return baseValue - difference;
+        float floatySub = (baseValue - difference);
+        return Math.round(floatySub * 1000f)/1000f;
     }
 
     public Double subtract(double baseValue, double difference) {

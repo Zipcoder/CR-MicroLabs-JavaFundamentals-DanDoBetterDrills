@@ -33,7 +33,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isGreaterThan(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertFalse(outcome);
     }
 
 
@@ -62,7 +62,7 @@ public class TestPredicateUtilities {
         boolean outcome = math.isLessThan(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertFalse(outcome);
     }
 
 
@@ -116,6 +116,6 @@ public class TestPredicateUtilities {
         boolean outcome = math.isGreaterThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
-        assertTrue(outcome);
+        assertFalse(outcome);
     }
 }

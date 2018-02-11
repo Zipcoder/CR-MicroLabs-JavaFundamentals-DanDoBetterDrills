@@ -83,6 +83,10 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverseTheTwo(String stringToReverse){
-        return stringToReverse;
+
+        String myString = new StringBuilder(stringToReverse).reverse().toString();
+
+
+        return myString;
     }
 }

@@ -29,7 +29,7 @@ public class StringUtilities {
      */
     public static String concatenation(int firstSegment, String secondSegment){
 
-        return firstSegment + "  " + secondSegment;
+        return firstSegment + secondSegment;
     }
 
     /**
@@ -38,7 +38,7 @@ public class StringUtilities {
      */
     public static String getPrefix(String input){
 
-        return input.substring(0,2);
+        return input.substring(0,3);
     }
 
     /**
@@ -56,6 +56,7 @@ public class StringUtilities {
      * @return the equivalence of two strings, `inputValue` and `comparableValue`
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
+
         return inputValue.equals(comparableValue);
     }
 
@@ -65,7 +66,16 @@ public class StringUtilities {
      */
     public static Character getMiddleCharacter(String inputValue){
 
-        return 'A';
+        double mid = inputValue.length() / 2;
+        int full = (int)mid;
+
+            if (inputValue.length() % 2 != 0){
+                return inputValue.charAt(full);
+
+                } else {
+
+                return inputValue.charAt(full - 1);
+                  }
     }
 
     /**
@@ -73,8 +83,10 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString){
+            String list[] = spaceDelimitedString.split(" ", 2);
 
-        return spaceDelimitedString.split(" ")[0];
+                return list[0];
+
     }
 
     /**
@@ -83,7 +95,9 @@ public class StringUtilities {
      */
     public static String getSecondWord(String spaceDelimitedString){
 
-        return spaceDelimitedString.split(" ")[1];
+        String list[] = spaceDelimitedString.split(" ", 2);
+
+        return list[1];
     }
 
     /**
@@ -91,6 +105,13 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverseTheTwo(String stringToReverse){
-        return null;
+
+        String flip = "";
+
+        for(int i = stringToReverse.length()-1; i >= 0; i--){
+            flip += stringToReverse.charAt(i);
+            }
+
+            return flip;
     }
 }

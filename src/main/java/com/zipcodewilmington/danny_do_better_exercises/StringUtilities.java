@@ -1,5 +1,6 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
+
 /**
  * Created by dan on 6/14/17.
  */
@@ -100,10 +101,15 @@ public class StringUtilities {
      */
     public static String reverseTheTwo(String stringToReverse){
         //so if the string contains a space, I want to split it then reverse it
-        if (stringToReverse.contains(" ")
-            return(reverse(stringToReverse.split(" ")));
-        else //if not still reverse it
-            return(reverse(stringToReverse));
+        StringBuilder sb = new StringBuilder(stringToReverse);
+        return sb.reverse().toString();
+
+
+//        if (stringToReverse.contains(" "){
+//            return(reverse(stringToReverse.split(" ")));
+//        }else{ //if not still reverse it
+//            return(reverse(stringToReverse));
+//        }
     }
 }
 

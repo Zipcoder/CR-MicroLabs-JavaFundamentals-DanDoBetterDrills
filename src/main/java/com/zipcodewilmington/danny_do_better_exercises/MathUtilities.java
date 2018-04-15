@@ -1,163 +1,119 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
 /**
- * Created by dan on 6/14/17.
+ * Refactored
  */
 public class MathUtilities {
 
-
     public Integer add(int baseValue, int difference) {
-        int add = baseValue + difference;
-        return add;
+        return baseValue + difference;
     }
 
     public Long add(long baseValue, long difference) {
-        long add = baseValue + difference;
-        return add;
+        return baseValue + difference;
     }
 
     public Short add(short baseValue, short difference) {
         int sum = baseValue + difference;
-        short shortSum = (short) sum;
-        return shortSum;
+        return (short) sum;
     }
 
     public Byte add(byte baseValue, byte difference) {
         int sum = baseValue + difference;
-        byte byteSum = (byte) sum;
-        return byteSum;
+        return (byte) sum;
     }
 
     public Float add(float baseValue, float difference) {
-       float add = baseValue + difference;
-        return add;
+        return baseValue + difference;
     }
 
     public Double add(double baseValue, double difference) {
-        double add = baseValue + difference;
-        return add;
+        return baseValue + difference;
     }
 
     public Integer subtract(int baseValue, int difference) {
-        int subtract = baseValue - difference;
-        return subtract;
+        return baseValue - difference;
     }
 
     public Long subtract(long baseValue, long difference) {
-        long subtract = baseValue - difference;
-        return subtract;
+        return baseValue - difference;
     }
 
     public Short subtract(short baseValue, short difference) {
         int sum = baseValue - difference;
-        short shortSum = (short) sum;
-        return shortSum;
-
+        return (short) sum;
     }
 
     public Byte subtract(byte baseValue, byte difference) {
         int sum = baseValue - difference;
-        byte byteSum = (byte) sum;
-        return byteSum;
-
+        return (byte) sum;
     }
 
     public Float subtract(float baseValue, float difference) {
-        float subtract = baseValue - difference;
-        return subtract;
+        return baseValue - difference;
     }
 
     public Double subtract(double baseValue, double difference) {
-        double subtract = baseValue - difference;
-        return subtract;
+        return baseValue - difference;
     }
 
     public Integer divide(int dividend, int divisor) {
-        int divide = dividend / divisor;
-        return divide;
+        return dividend / divisor;
     }
 
     public Long divide(long dividend, long divisor) {
-        long divide = dividend / divisor;
-        return divide;
-
+        return dividend / divisor;
     }
 
     public Short divide(short dividend, short divisor) {
         int sum = dividend / divisor;
-        short shortSum = (short) sum;
-        return shortSum;
-
+        return (short) sum;
     }
 
     public Byte divide(byte dividend, byte divisor) {
         int sum = dividend / divisor;
-        byte byteSum = (byte) sum;
-        return byteSum;
-
+        return (byte) sum;
     }
 
     public Float divide(float dividend, float divisor) {
-        float divide = dividend / divisor;
-        return divide;
-
+        return dividend / divisor;
     }
 
     public Double divide(double dividend, double divisor) {
-        double divide = dividend / divisor;
-        return divide;
-
+        return dividend / divisor;
     }
 
     public Integer multiply(int multiplicand, int multiplier) {
-        int multiply = multiplicand * multiplier;
-        return multiply;
+        return multiplicand * multiplier;
     }
 
     public Long multiply(long multiplicand, long multiplier) {
-        long multiply = multiplicand * multiplier;
-        return multiply;
+        return multiplicand * multiplier;
     }
 
     public Short multiply(short multiplicand, short multiplier) {
         int sum = multiplicand * multiplier;
-        short shortSum = (short) sum;
-        return shortSum;
+        return (short) sum;
     }
 
     public Byte multiply(byte multiplicand, byte multiplier) {
         int sum = multiplicand * multiplier;
-        byte byteSum = (byte) sum;
-        return byteSum;
+        return (byte) sum;
     }
 
     public Float multiply(float multiplicand, float multiplier) {
-        float multiply = multiplicand * multiplier;
-        return multiply;
+        return multiplicand * multiplier;
     }
 
     public Double multiply(double multiplicand, double multiplier) {
-        double multiply = multiplicand * multiplier;
-        return multiply;
-
+        return multiplicand * multiplier;
     }
 
     public Boolean returnTrue() {
-        if (20 < 100) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return true;
     }
 
     public Boolean returnFalse() {
-        if (69 >= 9000) {
-            return true;
-        } else {
-            return false;
-        }
-
+        return false;
     }
-
 }

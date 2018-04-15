@@ -154,7 +154,7 @@ public class TestStringUtilities {
         String expected = "Wilmington";
 
         // : When
-        String actual = StringUtilities.getFirstWord(input);
+        String actual = StringUtilities.getSecondWord(input);
 
         // : Then
         assertEquals(expected, actual);

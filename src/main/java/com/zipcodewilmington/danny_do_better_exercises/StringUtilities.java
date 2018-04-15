@@ -35,36 +35,30 @@ public class StringUtilities {
         return inputValue.equals(comparableValue) ;
     }
 
-    /**
-     * @param inputValue the value input from user
-     * @return the middle character of `inputValue`
-     */
     public static Character getMiddleCharacter(String inputValue){
-
-        return input;
+        int length = inputValue.length();
+        int middleIndex = length / 2;
+        if (middleIndex % 2 == 0){
+            middleIndex = middleIndex - 1;
+        }
+        char middleCharacter = inputValue.charAt(middleIndex);
+        return middleCharacter;
     }
 
-    /**
-     * @param spaceDelimitedString a string, representative of a sentence, containing spaces
-     * @return the first sequence of characters
-     */
-    public static String getFirstWord(String spaceDelimitedString){
-        return null;
+    public static String getFirstWord(String spaceDelimitedString) {
+        String[] firstWord = spaceDelimitedString.split(" ");
+        return firstWord[0];
     }
 
-    /**
-     * @param spaceDelimitedString a string delimited by spaces
-     * @return the second word of a string delimited by spaces.
-     */
     public static String getSecondWord(String spaceDelimitedString){
-        return null;
+        String[]secondWord = spaceDelimitedString.split( " ");
+        return secondWord[1];
     }
 
-    /**
-     * @param stringToReverse
-     * @return an identical string with characters in reverse order.
-     */
     public static String reverseTheTwo(String stringToReverse){
-        return null;
+
+        String reverse = new StringBuffer(stringToReverse).reverse().toString();
+
+        return reverse;
     }
 }

@@ -1,37 +1,31 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
 /**
- * Created by dan on 6/14/17.
+ * Refactored
  */
 public class StringUtilities {
 
     public static String getHelloWorld() {
-
         return "Hello World";
     }
 
     public static String concatenation(String firstSegment, String secondSegment){
-
         return firstSegment + secondSegment;
     }
 
     public static String concatenation(int firstSegment, String secondSegment){
-
         return firstSegment + secondSegment;
     }
 
     public static String getPrefix(String input){
-
-        return input.substring(0,3);
+        return input.substring(0,3); //returns a range of characters from the string from index positions 0 - 3 (prefix)
     }
 
     public static String getSuffix(String input){
-
         return input.substring(2);
     }
 
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
-
         return inputValue.equals(comparableValue) ;
     }
 
@@ -41,8 +35,8 @@ public class StringUtilities {
         if (middleIndex % 2 == 0){
             middleIndex = middleIndex - 1;
         }
-        char middleCharacter = inputValue.charAt(middleIndex);
-        return middleCharacter;
+
+        return inputValue.charAt(middleIndex);
     }
 
     public static String getFirstWord(String spaceDelimitedString) {
@@ -56,9 +50,6 @@ public class StringUtilities {
     }
 
     public static String reverseTheTwo(String stringToReverse){
-
-        String reverse = new StringBuffer(stringToReverse).reverse().toString();
-
-        return reverse;
+        return new StringBuffer(stringToReverse).reverse().toString();
     }
 }

@@ -110,6 +110,19 @@ public class TestPredicateUtilities {
     }
 
     @Test
+    public void testLessOrEqualFalseReal() {
+        // : Given
+        int greaterValue = 6;
+        int lesserValue = 3;
+
+        // : When
+        boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
+
+        // : Then
+        assertFalse(outcome);
+    }
+
+    @Test
     public void testGreaterOrEqualTrue() {
         // : Given
         int greaterValue = 4;

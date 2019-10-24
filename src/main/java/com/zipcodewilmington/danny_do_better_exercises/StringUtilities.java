@@ -92,11 +92,10 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverse(String stringToReverse){
-        char [] inputArr = stringToReverse.toCharArray();
-        char [] inputArrRev = new char[inputArr.length];
+        char [] inputArrRev = new char[stringToReverse.length()];
         int count = 0;
-        for(int i = inputArr.length-1 ; i >= 0; i--){
-            inputArrRev[count] = inputArr[i];
+        for(int i = stringToReverse.length()-1 ; i >= 0; i--){
+            inputArrRev[count] = stringToReverse.charAt(i);
             count++;
         }
         return new String(inputArrRev);

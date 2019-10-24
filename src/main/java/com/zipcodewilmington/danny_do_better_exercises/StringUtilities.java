@@ -84,7 +84,9 @@ public class StringUtilities {
      */
     public static String reverse(String stringToReverse){
         StringBuilder result = new StringBuilder();
-        result.append(stringToReverse);
-        return result.reverse().toString();
+        for (int i = stringToReverse.length()-1; i >= 0; i--) {
+            result.append(stringToReverse.charAt(i));
+        }
+        return result.toString();
     }
 }

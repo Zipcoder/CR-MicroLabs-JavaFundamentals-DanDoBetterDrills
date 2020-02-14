@@ -66,6 +66,9 @@ public class StringUtilities {
     public static Character getMiddleCharacter(String inputValue){
         int wordLength = inputValue.length();
         int middle = wordLength/2;
+        if(wordLength % 2 != 0){
+            return inputValue.charAt(middle);
+        }
         return inputValue.charAt(middle-1);
     }
 

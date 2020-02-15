@@ -86,6 +86,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Short subtract(short baseValue, short difference) {
+        // Short result = new Short(baseValue - difference);
         // return baseValue - difference;
 
         return null;

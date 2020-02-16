@@ -20,6 +20,7 @@ public class TestSubtraction {
         int expectedInt = 13;
         // : When
         int actualInt = mathUtils.subtract(baseValue,difference);
+        System.out.println("The final value in testIntegerSubtraction is --> "+actualInt);
         // : Then
         assertEquals(expectedInt,actualInt);
     }
@@ -31,6 +32,8 @@ public class TestSubtraction {
         long expectedLong = 1;
         // : When
         long actualLong = mathUtils.subtract(baseValue, difference);
+        System.out.println("The final value in testLongSubtraction is --> "+actualLong);
+
         // : Then
         assertEquals(expectedLong,actualLong);
     }
@@ -42,6 +45,8 @@ public class TestSubtraction {
         short expectedShort = 1;
         // : When
         short actualShort = mathUtils.subtract(baseValue, difference);
+        System.out.println("The final value in testShortSubtraction is --> "+actualShort);
+
         // : Then
         assertEquals(expectedShort,actualShort);
     }
@@ -53,6 +58,8 @@ public class TestSubtraction {
         byte expectedByte = -1;
         // : When
         byte actualByte = mathUtils.subtract(baseValue, difference);
+        System.out.println("The final value in testByteSubtraction is --> "+actualByte);
+
         // : Then
         assertEquals(expectedByte,actualByte);
     }
@@ -64,6 +71,8 @@ public class TestSubtraction {
         float expectedFloat = -44.415F;
         // : When
         float actualFloat = mathUtils.subtract(baseValue,difference);
+        System.out.println("The final value in testFloatSubtraction is --> "+actualFloat);
+
         // : Then
         assertEquals(expectedFloat,actualFloat, 0.005);
     }
@@ -75,6 +84,8 @@ public class TestSubtraction {
         double expectedDouble = -5.75;
         // : When
         double actualDouble = mathUtils.subtract(baseValue, difference);
+        System.out.println("The final value in testDoubleSubtraction is --> "+actualDouble);
+
         // : Then
         assertEquals(expectedDouble,actualDouble, 0);
     }

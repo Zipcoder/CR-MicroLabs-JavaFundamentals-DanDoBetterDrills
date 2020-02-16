@@ -20,6 +20,7 @@ public class TestAddition {
         // : When
         int actual = mathUtils.add(baseValue, addedValue);
         // : Then
+        System.out.println("The final value in testIntegerAddition is --> "+actual);
         assertEquals(expected, actual);
     }
 
@@ -31,6 +32,7 @@ public class TestAddition {
         long expected = 456874531;
         // : When
         long actual = mathUtils.add(baseValue, difference);
+        System.out.println("The final value in testLongAddition is --> "+actual);
         // : Then
         assertEquals(expected, actual);
     }
@@ -43,6 +45,8 @@ public class TestAddition {
         short expected = 16391;
         // : When
         short actual = mathUtils.add(baseValue, addedValue);
+        System.out.println("The final value in testShortAddition is --> "+actual);
+
         // : Then
         assertEquals(expected, actual);
     }
@@ -55,6 +59,8 @@ public class TestAddition {
         byte expected = 127;
         // : When
         byte actual = mathUtils.add(baseValue, addedValue);
+        System.out.println("The final value in testByteAddition is --> "+actual);
+
         // : Then
         assertEquals(expected, actual);
     }
@@ -67,6 +73,8 @@ public class TestAddition {
         float expected = 1545.585F;
         // : When
         float actual = mathUtils.add(baseValue, addedValue);
+        System.out.println("The final value in testFloatAddition is --> "+actual);
+
         // : Then
         assertEquals(expected, actual, 0);
     }
@@ -79,6 +87,8 @@ public class TestAddition {
         double expected = 456.25;
         // : When
         double actual = mathUtils.add(baseValue, addedValue);
+        System.out.println("The final value in testDoubleAddition is --> "+actual);
+
         // : Then
         assertEquals(expected, actual, 0);
     }

@@ -20,6 +20,7 @@ public class TestDivision {
         int expectedInt = 10;
         // : When
         int actualInt = mathUtils.divide(dividend, divisor);
+        System.out.println("The final value in testIntegerDivision is--> "+actualInt);
         // : Then
         assertEquals(expectedInt, actualInt);
     }
@@ -32,6 +33,7 @@ public class TestDivision {
         long expectedLong = 20000;
         // : When
         long actualLong = mathUtils.divide(dividend, divisor);
+        System.out.println( " The final value in testLongDivision is--->"+actualLong);
         // : Then
         assertEquals(expectedLong, actualLong);
     }
@@ -44,6 +46,7 @@ public class TestDivision {
         short expectedShort = 2;
         // : When
         short actualShort = mathUtils.divide(dividend, divisor);
+        System.out.println( "The final value in testShortDivision is--->"+actualShort);
         // : Then
         assertEquals(expectedShort, actualShort);
 
@@ -57,6 +60,8 @@ public class TestDivision {
         byte expectedByte = 2;
         // : When
         byte actualByte = mathUtils.divide(dividend, divisor);
+        System.out.println("The final value in testByteDivision is--->"+actualByte);
+
         // : Then
         assertEquals(expectedByte, actualByte);
     }
@@ -69,6 +74,7 @@ public class TestDivision {
         float expectedFloat = 2.50F;
         // : When
         float actualFloat = mathUtils.divide(dividend, divisor);
+        System.out.println("The final value in testFloatDivision is--->"+actualFloat );
         // : Then
         assertEquals(expectedFloat, actualFloat, 0);
     }
@@ -81,6 +87,7 @@ public class TestDivision {
         double expectedDouble = 1.25;
         // : When
         double actualDouble = mathUtils.divide(dividend, divisor);
+        System.out.println("The final value in testFloatDivision is--->"+actualDouble );
         // : Then
         assertEquals(expectedDouble, actualDouble, 0);
     }

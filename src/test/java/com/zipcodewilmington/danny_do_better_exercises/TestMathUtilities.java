@@ -4,11 +4,11 @@ import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestAdditio
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestDivision;
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestMultiplication;
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestSubtraction;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import static org.junit.Assert.*;
 /**
  * Created by dan on 6/14/17.
  */
@@ -21,4 +21,6 @@ import static org.junit.Assert.*;
         TestMultiplication.class
 })
 public class TestMathUtilities {
+
+
 }

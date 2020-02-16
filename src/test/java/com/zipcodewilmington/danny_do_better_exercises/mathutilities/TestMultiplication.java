@@ -22,6 +22,7 @@ public class TestMultiplication {
         // : When
         int actualInt = mathUtils.multiply(multiplicand,multiplier);
         // : Then
+        System.out.println("The final value in testIntegerMultiplication is--->"+actualInt);
         assertEquals(expectedInt,actualInt);
     }
     @Test
@@ -33,6 +34,7 @@ public class TestMultiplication {
         // : When
         long actualLong = mathUtils.multiply(multiplicand, multiplier);
         // : Then
+        System.out.println("The final value in longMultiplication--->"+actualLong);
         assertEquals(expectedLong, actualLong);
     }
     @Test
@@ -44,6 +46,7 @@ public class TestMultiplication {
         // : When
         short actualShort = mathUtils.multiply(multiplicand, multiplier);
         // : Then
+        System.out.println("The final value in testShortMultiplication--->"+actualShort);
         assertEquals(expectedShort, actualShort);
     }
     @Test
@@ -55,6 +58,7 @@ public class TestMultiplication {
         // : When
         byte actualByte = mathUtils.multiply(multiplicand, multiplier);
         // : Then
+        System.out.println("The final value in testShortMultiplication--->"+actualByte);
         assertEquals(expectedByte, actualByte);
     }
     @Test
@@ -66,6 +70,7 @@ public class TestMultiplication {
         // : When
         float actualFloat =  mathUtils.multiply(multiplicand,multiplier);
         // : Then
+        System.out.println("The final value in testFloatMultiplication--->"+actualFloat);
         assertEquals(expectedFloat, actualFloat, 0);
     }
     @Test
@@ -77,6 +82,7 @@ public class TestMultiplication {
         // : When
         double actualDouble = mathUtils.multiply(multiplicand,multiplier);
         // : Then
+        System.out.println("The final value in testFloatMultiplication--->"+actualDouble);
         assertEquals(expectedDouble, actualDouble, 0);
     }
 }

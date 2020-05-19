@@ -25,7 +25,8 @@ public class StringUtilities {
      */
     public static String concatenation(String firstSegment, String secondSegment) {
 
-        return firstSegment.concat(secondSegment);
+        //return firstSegment.concat(secondSegment);
+        return firstSegment+secondSegment;
     }
 
     /**

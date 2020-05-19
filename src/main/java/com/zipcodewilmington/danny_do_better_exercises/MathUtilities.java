@@ -32,7 +32,7 @@ public class MathUtilities {
     public Short add(short baseValue, short difference)
     {
         int i = baseValue+difference;
-        short s1 = (short) i;
+        short s1 = (short) i; // casting
         Short x = s1;
         return x;
     }
@@ -45,7 +45,7 @@ public class MathUtilities {
     public Byte add(byte baseValue, byte difference) {
 
         int i = baseValue+difference;
-        byte b1 = (byte) i;
+        byte b1 = (byte) i; // casting
         Byte b = b1;
         return b;
 

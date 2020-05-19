@@ -15,6 +15,7 @@ public class StringUtilities {
         String str = "Hello World";
         return str;
 
+
     }
 
     /**
@@ -119,6 +120,7 @@ public class StringUtilities {
     public static String getFirstWord(String spaceDelimitedString)
     {
         int i = spaceDelimitedString.indexOf(' ');
+        System.out.println(" The value of i is -->"+i);
         String word = spaceDelimitedString.substring(0, i);
         System.out.println(" The first word is -->"+word);
         return word;
@@ -147,12 +149,9 @@ public class StringUtilities {
 
         System. out. println("Enter string to reverse:");
                String strNew = "";
-
-
         for(int i = stringToReverse. length() - 1; i >= 0; i--)
         {
             strNew = strNew + stringToReverse. charAt(i);
-
         }
         System.out.println(" The reversed string  is -->"+strNew);
         return strNew;

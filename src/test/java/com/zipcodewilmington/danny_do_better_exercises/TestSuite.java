@@ -2,6 +2,8 @@ package com.zipcodewilmington.danny_do_better_exercises;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  * Created by leon on 2/5/18.
@@ -14,4 +16,5 @@ import org.junit.runners.Suite;
         TestStringUtilities.class,
 })
 public class TestSuite {
+
 }

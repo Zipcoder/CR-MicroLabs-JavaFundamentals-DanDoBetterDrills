@@ -113,7 +113,7 @@ public class TestStringUtilities {
 
         // : When
         Character actual = StringUtilities.getMiddleCharacter(input);
-
+        //System.out.println("The actual value is -->"+actual);
         // : Then
         Assert.assertEquals(expected.toString(), actual.toString());
     }
@@ -127,6 +127,7 @@ public class TestStringUtilities {
 
         // : When
         Character actual = StringUtilities.getMiddleCharacter(input);
+        System.out.println("The actual value is -->"+actual);
 
         // : Then
         Assert.assertEquals(expected.toString(), actual.toString());

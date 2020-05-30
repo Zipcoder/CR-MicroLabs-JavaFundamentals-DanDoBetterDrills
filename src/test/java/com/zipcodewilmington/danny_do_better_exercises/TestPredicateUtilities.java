@@ -35,6 +35,7 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isGreaterThan(greaterValue, lesserValue);
+        System.out.println("The final outcome in testGreaterThanTrue is -->"+outcome);
 
         // : Then
         assertTrue(outcome);
@@ -49,6 +50,7 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isGreaterThan(greaterValue, lesserValue);
+        System.out.println("The final outcome in testGreaterThanFalse is -->"+outcome);
 
         // : Then
         assertFalse(outcome);
@@ -63,7 +65,7 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isLessThan(greaterValue, lesserValue);
-
+        System.out.println("The final outcome in testLessThanTrue is -->"+outcome);
         // : Then
         assertFalse(outcome);
     }
@@ -77,6 +79,8 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isLessThan(greaterValue, lesserValue);
+        System.out.println("The final outcome in testLessThanFalse is -->"+outcome);
+
 
         // : Then
         assertFalse(outcome);
@@ -91,6 +95,7 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
+        System.out.println("The final outcome in testLessOrEqualTrue is -->"+outcome);
 
         // : Then
         assertTrue(outcome);
@@ -104,6 +109,8 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
+        System.out.println("The final outcome in testLessOrEqualFalse is -->"+outcome);
+
 
         // : Then
         assertFalse(outcome);
@@ -117,6 +124,7 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isGreaterThanOrEqualTo(greaterValue, lesserValue);
+        System.out.println("The final outcome in testGreaterOrEqualTrue is -->"+outcome);
 
         // : ThenP
         assertTrue(outcome);
@@ -131,6 +139,7 @@ public class TestPredicateUtilities {
 
         // : When
         boolean outcome = predicateUtilities.isGreaterThanOrEqualTo(greaterValue, lesserValue);
+        System.out.println("The final outcome in testGreaterOrEqualFalse is -->"+outcome);
 
         // : Then
         assertFalse(outcome);

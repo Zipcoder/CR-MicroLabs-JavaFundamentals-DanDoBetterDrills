@@ -13,7 +13,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Integer add(int baseValue, int difference) {
-    return null;
+
+        return baseValue + difference;
     }
 
     /**
@@ -60,7 +61,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Double add(double baseValue, double difference) {
-        return baseValue + baseValue;
+        return baseValue + difference;
     }
 
     /**
@@ -143,7 +144,7 @@ public class MathUtilities {
      */
     public Short divide(short dividend, short divisor) {
 
-        return (short) (dividend - divisor);
+        return (short) (dividend / divisor);
     }
 
     /**
@@ -170,7 +171,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Double divide(double dividend, double divisor) {
-        return dividend - divisor;
+        return dividend / divisor;
     }
 
 

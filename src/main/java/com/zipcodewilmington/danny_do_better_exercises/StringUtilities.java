@@ -4,9 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 import static org.apache.commons.lang3.StringUtils.*;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
-import static com.sun.xml.internal.ws.util.StringUtils.*;
 
 /**
  * Created by dan on 6/14/17.
@@ -52,7 +49,7 @@ public class StringUtilities {
      */
     public static String getPrefix(String input){
         String pre = "";
-           pre = input.substring(0, 3);
+        pre = input.substring(0, 3);
         return pre;
     }
     /**
@@ -73,8 +70,8 @@ public class StringUtilities {
      * @return the equivalence of two strings, `inputValue` and `comparableValue`
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
-       if (inputValue == comparableValue){
-        return true;}
+        if (inputValue == comparableValue){
+            return true;}
         else {
             return false;
         }
@@ -101,7 +98,7 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString){
-    String firstWord = StringUtils.substringBefore(spaceDelimitedString, " ");
+        String firstWord = StringUtils.substringBefore(spaceDelimitedString, " ");
         return firstWord;
 
 

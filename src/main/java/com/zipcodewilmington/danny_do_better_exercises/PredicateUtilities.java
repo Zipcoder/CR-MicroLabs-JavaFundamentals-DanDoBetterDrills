@@ -11,11 +11,11 @@ public class PredicateUtilities {
      */
     public Boolean isGreaterThan(int x, int y) {
         if (x > y){
-        return true;
-    }
+            return true;
+        }
         else {
             return false;}
-        }
+    }
 
     /**
      * @param x

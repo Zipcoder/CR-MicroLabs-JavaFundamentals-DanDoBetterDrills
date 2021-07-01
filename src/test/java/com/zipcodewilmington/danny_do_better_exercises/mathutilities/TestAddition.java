@@ -1,6 +1,7 @@
 package com.zipcodewilmington.danny_do_better_exercises.mathutilities;
 
 import com.zipcodewilmington.danny_do_better_exercises.MathUtilities;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -75,7 +76,7 @@ public class TestAddition {
     public void testDoubleAddition() {
         // : Given
         double baseValue = 225.25;
-        double addedValue = 231.00;
+        double addedValue = 231;
         double expected = 456.25;
         // : When
         double actual = mathUtils.add(baseValue, addedValue);

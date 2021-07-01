@@ -75,12 +75,12 @@ public class TestAddition {
     public void testDoubleAddition() {
         // : Given
         double baseValue = 225.25;
-        double addedValue = 231;
+        double addedValue = 231.00;
         double expected = 456.25;
         // : When
         double actual = mathUtils.add(baseValue, addedValue);
         // : Then
-        assertEquals(expected, actual, 0);
+        assertEquals(expected, actual, 0.00);
     }
 
 

@@ -1,6 +1,7 @@
 package com.zipcodewilmington.danny_do_better_exercises.mathutilities;
 
 import com.zipcodewilmington.danny_do_better_exercises.MathUtilities;
+import junit.framework.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

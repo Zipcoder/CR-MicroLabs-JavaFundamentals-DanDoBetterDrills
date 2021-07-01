@@ -1,7 +1,8 @@
 package com.zipcodewilmington.danny_do_better_exercises;
-
+import static org.apache.commons.lang3.StringUtils.*;
 import org.junit.Assert;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /**
@@ -62,7 +63,7 @@ public class TestStringUtilities {
         String actual = StringUtilities.getPrefix(input);
 
         // : Then
-        assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -75,7 +76,7 @@ public class TestStringUtilities {
         String actual = StringUtilities.getSuffix("Hello");
 
         // : Then
-        assertEquals(expected, actual);
+       Assert.assertEquals(expected, actual);
     }
 
     @Test
